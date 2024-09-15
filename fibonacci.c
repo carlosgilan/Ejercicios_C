@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> 
-
+#include <stdlib.h>
 
 int main(void)
 {
@@ -10,7 +9,6 @@ int main(void)
     scanf("%d", &fibo);
 
     int x = 0, y = 1;
-    
 
     printf("%d %d ", x, y);
 
@@ -23,21 +21,19 @@ int main(void)
         printf("%d ", z);
         x = y;
         y = z;
-       
-        if(z % 2 == 0){
-       // printf("%d ", z);
-        acum1 += z;
-        acum2 += x;
-        acum3 += y;
 
-        
+        if (z % 2 == 0)
+        {
+            // printf("%d ", z);
+            acum1 += z;
+            acum2 += x;
+            acum3 += y;
         }
     }
 
-    //sumatoria = acum1 + acum2 + acum3;
+    // sumatoria = acum1 + acum2 + acum3;
     printf("\n");
     printf("Suma: 1: %d\n", acum1);
     system("pause");
     return 0;
 }
-

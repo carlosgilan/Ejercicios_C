@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 int main(void)
 {
@@ -13,19 +13,19 @@ int main(void)
         int contador = 0;
         for (int j = 1; j <= i / 2; j++)
         {
-            if(i % j == 0){
+            if (i % j == 0)
+            {
                 contador++;
             }
         }
-        
-        if(contador == 1){
+
+        if (contador == 1)
+        {
             printf("%d\n", i);
         }
-        
     }
-    
+
     system("pause");
-    
+
     return 0;
 }
-

@@ -64,4 +64,3 @@ void mostrarResultado(int datos, int horas, int minutos, int segundos)
 
     printf("%d segundos son: %d horas, %d minutos y %d segundos.", datos, horas, minutos, segundos);
 }
-

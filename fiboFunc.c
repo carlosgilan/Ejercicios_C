@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 int pedirNumero(void);
 int calcularFibo(int);
-
 
 int main(void)
 {
@@ -44,5 +43,5 @@ int calcularFibo(int num)
         x = y;
         y = z;
     }
-printf("\n");
+    printf("\n");
 }
